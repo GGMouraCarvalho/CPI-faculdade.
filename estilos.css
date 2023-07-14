@@ -7,7 +7,7 @@
 
 
 body {
-  background-image: linear-gradient(to right, #0d3192, #542382, #71116e, #820058, #8a0043, #8a0043, #8a0043, #8a0043, #820058, #71116e, #542382, #0d3192);
+ 
   width: 100%;
 }
 
@@ -181,12 +181,13 @@ h2 {
 }
 
 
-.bt-topo{background-color:#212121;
+.bt-topo{
+	background-color:#212121;
 	width: 70px;
 	height: 70px;
 	border-radius: 35px;
 	position: fixed;
-	right: 10px;
+	right: 50px;
 	bottom: 70px;
 	z-index: 1;
 }
@@ -389,12 +390,12 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 #pag-logo-contatos{
 	display: flex;
 }
-#logos img{width: 80px;
-height: 80px;}
+#logos img{width: 50px;
+height: 50px;}
 #logos p{
-	font-size: 3em;
+	font-size: 1em;
 	position: relative;
-	left:10px;
+	left:-80px;
 color: white;}
 #logos a { text-decoration: none; }
 
@@ -421,240 +422,264 @@ color: white;}
 
 /*media query*/
 
-@media(min-width:360px) and (max-width:480px){
-*{
-	padding:0;
-	margin:0;
-}
-body{width: 100vw;
-}
-
-html{
-	width:100vw;
-	height: 100vh;
-}
-
-nav{
-	display: none;
-}
-
-.mobile-menu-icon{
-	justify-content: right;
-}
-	#texto-home{display:none;
-.icon{
+@media(min-width:350px) and (max-width:768px){
 	
-	height: 20px;
-	width: 30px;
-	
-}
-
-#banner{
-	height: 100%;
-	width: 100vw;
-
-}
-#home,#pag-1{
-	width: 100vw;
-	height: 100px;
-	display: block;
-}
-
-#banner img{
-	width: 100%;
-	height: 100%;
-}
-#menu{
-	display: none;
-}
-	
-.mobile-menu-icon{
-	width: 100vw;
-	height: 40px;
-	display:flex;
-}
-
-#texto-home p{
-	display: none;
-}
-
-#pag-1 p{
-	width:100%;
-	font-size: 0.8em;	
-}
-#pag-1 h1{
-	position: relative;
-	left: 30%;
-	width: 90%;
-}
-
-#texto-mobile{
-	color: white;
-	font-size: 0.8em;
-	width: 80%;
-	text-align: center;
-	display: list-item;
-}
-
-h1{
-	font-size: 1em;
-	text-align: center;
-}
-
-h2{
-	font-size: 0.9em;
-	position: relative;
-	right: 100%;
-	top:40%;
-
-}
-	
-#pag-video{
-	height:50px;
-	left:50%;
-	margin-top:50%;
-}
-
-#pag-video h2{
-	position: absolute;
-	top: 300%;
-	transform: translate(40px);
-}
-
-#video-home{
-	width:300px;
-	height: 200px;
-	position: absolute;
-	top:400% ;
-	transform: translate(-50%);
-}
-#video-home:hover{
-	border-radius: 0in;
-}
-	
-#btn-partipice{
-	width: 100px;
-	height: 50px;
-	position: relative;
-	top:720%;
-	right: 80%;
-}
-#btn-partipice p{
-	position: relative;
-	top: 15px;
-	right:50px;
-}
-		
-#btn-partipice:hover{
-	width: 110px;
-}
-		
-.footer-mobile{
-	width: 100vw;
-	height:80px;
-	position: absolute;
-	bottom: -500px;
-	display: flex;	
-}
-
-.logo-contatos img{
-	width: 20px;
-	height: 20px;
-	position: relative;
-	top:5px;
-	right: 50%;
-
-
-}
-.logo-contatos p{
-	width: 100%;
-	position: relative;
-	top: 15px; 
-	right: 16px;
-	font-size:0.7em;
-	margin:0;
-	padding: 0;
-}
-.logo-contatos{
-	display: block;
-	width: 100vw;
-	margin:0;
-	padding: 0;
-}
-
-.open{
-	display: block;
+	*{
+		padding:0;
+		margin:0;
 	}
 	
-.bt-topo{
-	width: 2px;
-	height:2px;
-	position: fixed;
-	left: 80%;
-	bottom: 100px;
-	z-index: 1;
-}
-	
-.bt-topo img{
-	width: 40px;
-	height: 40px;
+	body{
+		width: 100vw;
 	}
 
-		/*pag-2*/
-#pag-2{display: block;
-}
-#pag-2 p{
-	font-size: 0.8em;
-	width: 80%;
-	margin: 0;
-	position: relative;
-	left: 50px; 
-	
-}
-	
-.carousel{
-	width: 60vw;
-	position: relative;
-	bottom: 30%;
-	left:50px;
-	margin-right: 0;
-}
+	html{
+		width:100vw;
+		height: 100vh;
+	}
 
-.carousel-images{margin-right: 0;}
+	nav{
+		display: none;
+	}
 
-/*pagina-parcerias*/
+	.mobile-menu-icon{
+		justify-content: right;
+	}
+	.icon{
+		
+		height: 20px;
+		width: 30px;
+		
+	}
 
-#pag-3 p{
-	font-size: 0.8em;
-	width: 80%;
-	margin: 0;
-	position: relative;
-	left: 50px; 
-}
-#btn-Parceirias{
-	width: 300px;
-	position: relative;
-	left:10%;
-}
-#btn-Parceirias p{
-	font-size: 0.8em;
-	position: relative;
-	top:15px;
-	right:30%;
-}
-#btn-Parceirias:hover{
-	width:320px;
-} 
-#btn-Parceirias:hover p{
-	font-size: 1em;
-	position: relative;
-	top:3px;
-}
-}
-	
+	#banner{
+		height: 100%;
+		width: 100vw;
+
+	}
+	#home,#pag-1{
+		width: 100vw;
+		height: 100px;
+		display: block;
+	}
+
+	#banner img{
+		width: 100%;
+		height: 100%;
+	}
+	#menu{
+		display: none;
+	}
+		
+	.mobile-menu-icon{
+		width: 100vw;
+		height: 40px;
+		display:flex;
+	}
+
+	#texto-home p{
+		width: 100%;
+		letter-spacing:0.1em;
+		line-height: 15px;
+		position: relative;
+		left: 40%;
+	}
+
+	#pag-1 p{
+		font-size: 0.8em;	
+	}
+	#pag-1 h1{
+		position: relative;
+		left: 30%;
+		width: 90%;
+	}
+
+	#texto-mobile{
+		color: white;
+		font-size: 1em;
+		
+		}
+
+	h1{
+		font-size: 1em;
+		position: absolute;
+		left: 50px;
+	}
+
+	h2{
+		font-size: 0.9em;
+		position: relative;
+		right: 100%;
+		top:40%;
+
+	}
+		
+	#pag-video{
+		height:50px;
+		left:55%;
+		position: absolute;
+		top: 700px;
+	}
+
+	#pag-video h2{
+		position: absolute;
+		top: 230%;
+		font-size: 0.9em;
+		transform: translate(40px);
+	}
+
+	#video-home{
+		width:300px;
+		height: 200px;
+		position: absolute;
+		top:300% ;
+		border-radius: 0in;
+		transform: translate(-50%);
+	}
+	#video-home:hover{
+		border-radius: 0in;
+	}
+
+	#btn-partipice{
+		width: 100px;
+		height: 50px;
+		position: relative;
+		top:630%;
+		right: 80%;
+	}
+	#btn-partipice p{
+		position: relative;
+		top: 15px;
+		right:40px;
+	}
+			
+	#btn-partipice:hover{
+		width: 110px;
+	}
+			
+	.footer-mobile{
+		width: 100%;
+		height:60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+		
+	}
+	.img-contatos {
+		width: 40px;
+	}
 
 
+	#logos img{
+		width: 30px;
+		height: 30px;
+		position: relative;
+		top:5px;
+		right: 50%;
+	}
+	#logos p{
+		text-align: center;
+		width: 100%;
+		position: relative;
+		left: -30px;
+		font-size:1em;
+		padding: 0;
+	}
+	.logo-contatos{
+		display: block;
+		width: 100vw;
+		margin:0;
+		padding: 0;
+	}
 
+	.open{
+		display: block;
+		}
+		
+	.bt-topo{
+		width: 2px;
+		height:2px;
+		position: fixed;
+		left: 85%;
+		bottom: 120px;
+		z-index: 1;
+	}
+		
+	.bt-topo img{
+		width: 40px;
+		height: 40px;
+		}
+
+			/*pag-2*/
+	#pag-2{
+		display: block;
+		margin-top: 20%;
+	}
+
+	#pag-2 p{
+		text-align: justify;
+		font-size: 0.8em;
+		width: 80%;
+		margin: 0;
+		line-height:15px; 
+		position: relative;
+		left: 50px; 
+		top: 40%;
+	}
+	#pag-2 h1{
+	 	position: absolute;
+		top:130px;
+	}
+		
+	.carousel{
+		width: 60vw;
+		position: relative;
+		bottom: 30%;
+		left:50px;
+		margin-right: 0;
+	}
+
+	.carousel-images{
+		margin-right: 0;
+	}
+
+	/*pagina-parcerias*/
+
+	#pag-3 p{
+		font-size: 0.8em;
+		width: 80%;
+		margin: 0;
+		position: relative;
+		left: 50px; 
+	}
+	#btn-Parceirias{
+		width: 300px;
+		position: relative;
+		left:10%;
+	}
+	#btn-Parceirias p{
+		font-size: 0.8em;
+		position: relative;
+		top:15px;
+		right:30%;
+	}
+	#btn-Parceirias:hover{
+		width:320px;
+	} 
+	#btn-Parceirias:hover p{
+		font-size: 1em;
+		position: relative;
+		top:3px;
+	}
+
+	/*pagina-contatos*/
+	.logos p {
+		font-size:0.02em
+
+	}
+
+
+}
 
 
 
@@ -687,24 +712,26 @@ h2{
 
 
 @media (min-width:481px) and (max-width: 768px){
-	body,nav,header,footer,#pag-1,#pag-2,#pag-3{width: 100vw;
-	}
+	body{
+	width: 100%;
+}
 
 
 #pag-1,#pag-2,#pag-3{
-	width: 133vw;
+	width: 100%;
 	display: block;
 	background-color:blue;
-	}
+}
 
-#pag-1{display: block;}
+#pag-1{
+	display: block;
+}
 #pag-1 h1 {
 	position: relative;
 	top:25px;
 	left: 50%;
 }
 #pag-1 p{
-	
 	position:relative;
 	left: 30px;
 }
@@ -726,15 +753,15 @@ nav{
 	left:10px;
 }
 #texto-mobile h1{
-position: relative;
-left: 50px;
+	position: relative;
+	left: 50px;
 }
 #texto-home{
 	display: none;
 }
 #video-home{
 	width: 150px;
-	height: 100px;	
+	height: 100%;	
 }
 .bt-topo{
 	position: relative;
@@ -742,16 +769,15 @@ left: 50px;
 	left: 85%;
 }
 .footer-mobile{
-	width: 133vw;
+	position: relative;
+	top:80%;
+	
 }
 #pag-video{
-	position: relative;
-	
-	
+	position: relative;	
 }
 
 }
-
 
 
 
@@ -765,66 +791,80 @@ left: 50px;
  section, nav,header{
  	width: 100%;}
 
- nav{
- }
+	 nav{
+	 	display: block;
+	 }
 
- nav a{
- 	margin:0;
- }
- nav p{
- 	font-size: 1em;}
+	 nav a{
+	 	margin:0;
+	 }
+	 nav p{
+	 	font-size: 1em;}
 
- p{
- 	font-size: 0.8em;
+	 p{
+	 	font-size: 0.8em;
+	 	text-align: justify;
+	 	position: relative;
+	 	left: 80px;
 
- }
-  #pag-1 {
-  	background-color:gray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #home{
+	 }
+	  #pag-1 {
+	  	background-color:gray;
+	    align-items: center;
+	    display: block;
+	  }
+	  #home{
 
-  	display: block;
-  }
+	  	display: block;
+	  }
 
-  #texto-home {
-    margin-bottom: 20px;
-    width: 90%;
-  }
-  h2{
-  	position: relative;
-  	right: 80px;
-  }
+	  #texto-home {
+	    margin-bottom: 20px;
+	    width: 100%;
+	  }
+	  h2{
+	  	position: relative;
+	  	right: 80px;
+	  }
 
-  #pag-video {
-  	margin:20px;
-    width: 90%;
-    position:absolute;
-    top: 150%;
-    border-radius:none;
-    
-  }
-  footer {
-  	width: 100%;
-    position: absolute;
-    top: 300%;
-  }
+	  #pag-video {
+	  	margin:20px;
+	    width: 90%;
+	    position:relative;
+	    top: 150%;
+	    left:50px;
+	    border-radius:none;
+	    
+	  }
+	 #btn-partipice p{
+	 	font-size: 1.5em;
+	  	position: relative;
+	  	right: 40px;
 
-#bt-topo{
-	position: fixed;
-	right: 30px;
-	top: 80%;
-	z-index: 1
-}
+	  }
+	  footer {
+	  	width: 100%;
+	    position: relative;
+	    bottom: -5px;
 
-#pag-2 p {
-	font-size: 1em;
-}
-#btn-Parceirias{
-	width: 300px;
+	  }
+	  footer  p{
+	  	position: relative;
+	  	left: 7px;
+	  }
 
-}
+	#bt-topo{
+		position: fixed;
+		left: 10px;
+		top: 80%;
+		z-index: 1
+	}
+
+	#pag-2 p {
+		font-size: 1em;
+	}
+	#btn-Parceirias{
+		width: 300px;
+	}
 }
 
