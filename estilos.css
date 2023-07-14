@@ -7,22 +7,21 @@
 
 
 body {
- 
   width: 100%;
 }
 
 
 header {
   background-color: #212121;
-  
-  
 }
 
 header img,nav,footer {
   width:100vw;
   height: 100%;
 }
-header img{width: 100%;}
+header img{
+  width: 100%;
+}
 
 nav {
   text-align: center;
@@ -50,11 +49,11 @@ nav p:hover {
 }
 
 #home{
-display:flex;
+   display:flex;
  }
 
 #home h1{
-	margin-left: 50px;
+   margin-left: 50px;
 }
 
 h1 {
@@ -63,7 +62,6 @@ h1 {
   font-size: 2em;
   font-family: Bangers, cursive;
   letter-spacing: 5px;
-
 }
 
 p {
@@ -84,14 +82,13 @@ h2 {
   text-align: center;
 }
 #texto-home{
-	width: 50%;
+ width: 50%;
 }
 #pag-video {
   margin-top: 150px;
   position:absolute;
   left: 40%;
   top:35%;
-
 }
 
 #video-home {
