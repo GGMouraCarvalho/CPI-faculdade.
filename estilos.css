@@ -30,7 +30,7 @@ nav {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	
+	background-color: yellow;
 }
 
 nav a {
@@ -433,7 +433,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		height: 50px;
 		display:block;
 		overflow: hidden;
-		
+		background-color: #0d448c;
 	}
 	
 	.img-menu-mobile{
