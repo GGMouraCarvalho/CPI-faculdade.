@@ -127,7 +127,8 @@ h2 {
   color: white;
   font-size: 1.2em;
    position: relative;
- 	top: 5px;
+ 	bottom: 35px;
+	left: 30px;
 }
 
 #btn-partipice a{
@@ -324,16 +325,14 @@ input:nth-child(4):checked ~ .carousel-images {
 /*pagina parcerias */
 
 #pag-3{
-	height:100%;
 	margin-bottom: 30%;
-	margin-top: 60px;
 }
 #layout-pag-3 p {
-	width: 80%;
+	width: 90%;
 	position: relative;
-	left: 10%;
-	
-
+	left: 2%;
+	bottom:10px;
+	font-size: 1.2em;
 }
 #layout-pag-3 h1{
 	text-align: center;
@@ -358,7 +357,9 @@ input:nth-child(4):checked ~ .carousel-images {
 	font-family: 'Quicksand', sans-serif;
 	color:white;
 	position: relative;
-	bottom:60%;
+	bottom:80%;
+	left: 20%;
+
 	
 }
 #btn-Parcerias a {
@@ -418,7 +419,6 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 
 
 
-
 /*media query*/
 
 @media(min-width:390px) and (max-width:768px){
@@ -436,16 +436,16 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 	}
 	
 	.img-menu-mobile{
-		display:inline-block;
 		width: 30px;
 		height: 30px;
 		background-color:#ffffff;
-		align-items: center;
+		
 	}
 	nav p{
 		font-size: 0.8em;
 		text-align: center;
-		margin: 0;
+		margin-top: 10px;
+		line-height: normal;
 	}
 	nav p:hover{
 		font-size: 0.8em;}
@@ -461,7 +461,6 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 	}
 	#home{
 		width: 100%;
-		height: 100%;
 		display: block;
 	}
 	
@@ -476,7 +475,6 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 	}
 
 	#texto-home {display: none;}
-	
 
 	#pag-1 p{
 		font-size: 0.9em;	
@@ -488,7 +486,6 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		position: relative;
 		left: 20px;
 		white-space: nowrap;
-		
 	}
 
 	#texto-mobile{
@@ -498,15 +495,16 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		text-align: justify;
 		display:inherit;
 		line-height:5px;
-		
 	}
 
-	
-		
 	#pag-video{
-		height: 30px;
-		width: 30px;
+		margin-bottom: 30px;
+		width: 200px;
+		position: relative;
+		left: 90px;
+		margin-top: 40px;
 	}
+
 
 
 	#video-home{
@@ -514,7 +512,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		height: 200px;
 		border-radius: 0in;
 		position: relative;
-		right: 130px;
+		right: 50px;
 
 	}
 
@@ -526,14 +524,14 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		width: 100px;
 		height: 50px;
 		position: relative;
-		right:40px;
+		right:20px;
 
 	}
 
 	#btn-partipice p{
 		position: relative;
-		top: 15px;
-		right:25px;
+		bottom: 25px;
+		left: -20px;
 		
 	}
 			
@@ -544,18 +542,19 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 	
 	
 	.logo-contatos{
-		display: flexbox;
+		display: flex;
 		width: 100%;
 		margin:0;
 		padding: 0;
 	}
+	
 	
 		
 	.bt-topo{
 		width: 2px;
 		height:2px;
 		position: fixed;
-		right: 50px;
+		right: 70px;
 		bottom:110px;
 		z-index: 1;
 	}
@@ -564,7 +563,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		width: 40px;
 		height: 40px;
 	}
-
+	
 			/*pag-2*/
 	#pag-2{
 		display: block;
@@ -575,7 +574,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		text-align: justify;
 		font-size: 0.8em;
 		width: 80%;
-		line-height: 30px;
+		line-height:normal
 	}
 
 		
@@ -585,23 +584,27 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		left:30px;
 		
 	}
-	.footer-mobile{
-		display: block;
-		width: 100%;
-		height: 150px;
-    	position: relative;
-		bottom: 0;
-	}
 	
 	/*pagina-parcerias*/
 
 	#pag-3 p{
 		font-size: 0.7em;
-		width: 80%;
-		margin: 0;
 		line-height: normal;
+		transform: translate(-10%);
 	}
-	
+	#layout-pag-3 nav p{
+		position: relative;
+		top: 0;
+		transform: translate(-29px);
+		font-size:0.8em;
+		
+	}
+		#layout-pag-3 button p{
+			position: relative;
+			bottom:30px;
+			left: 25px;
+			font-size: 0.9em;
+		}
 
 	#btn-Parcerias{
 		width: 300px;
@@ -611,7 +614,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 	#btn-Parcerias a{
 		font-size: 1em;
 		position: relative;
-		top: 45px;
+		top: 5px;
 		left: 30px;
 	}
 	#btn-Parcerias:hover{
@@ -632,29 +635,40 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 		left:30%;
 
 	}
-	.logos p {
-		font-size:0.2em
+	#logos {
+		margin-left: 20px;
 	}
+	
 	
 	#logos img{
 			width: 25px;
 			height: 25px;
 			position: relative;
 			top:3px;
-			right: 50%;
+			left: 30px;
 	}
 	#logos p{
-			text-align: center;
+			text-align: left;
+			margin-left: 25px;
 			width: 100%;
-			position: relative;
-			left: -30px;
 			font-size:1em;
 			
 	}	
 	.footer-mobile{
-		
+		display: block;
+		width: 100%;
+		height: 150px;
+    	position: relative;
+		bottom: 0;
+	}
+	.footer-mobile p{
+		font-size: 0.6em;
+	}
+	.footer-mobile img{
+		width: 15px;
+		height: 15px;
+	}
 
-	}	
 
 }
 
@@ -687,7 +701,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 
 
 
-@media (min-width:768px) and (max-width: 750px){
+@media (min-width:769px) and (max-width: 750px){
 	body{
 	width: 100%;
 }
