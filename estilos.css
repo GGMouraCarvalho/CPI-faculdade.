@@ -188,8 +188,8 @@ h2 {
 	height: 70px;
 	border-radius: 35px;
 	position: fixed;
-	right: 200px;
-	bottom: 70px;
+	right: 20px;
+	bottom: 40px;
 	z-index: 1;
 }
 .bt-topo img{
@@ -421,7 +421,7 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 
 /*media query*/
 
-@media(min-width:390px) and (max-width:768px){
+@media(min-width:390px) and (max-width:769px){
 	
 	*{
 		padding:0;
@@ -694,111 +694,28 @@ box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff,0 0 50px #ffffff,0 0 100px #ffffff
 
 
 
-
-
-
-
-
-
-
-@media (min-width:769px) and (max-width: 750px){
-	body{
-	width: 100%;
-}
-
-
-#pag-1,#pag-2,#pag-3{
-	width: 100%;
-	display: block;
-	
-}
-
-#pag-1{
-	display: block;
-}
-#pag-1 h1 {
-	position: relative;
-	top:25px;
-	left: 50%;
-}
-#pag-1 p{
-	position:relative;
-	left: 30px;
-}
-header{
-	width: 100%;
-}
-header a{
-	font-size:0.8em;
-	margin: 0;
-	padding: 0;
-}
-nav{
-	width: 100%;
-}
-#texto-mobile{
-	width: 100%;
-	display:inline;
-	position: relative;
-	left:10px;
-}
-#texto-mobile h1{
-	position: relative;
-	left: 50px;
-}
-#texto-home{
-	display: none;
-}
-#video-home{
-	width: 150px;
-	height: 100%;	
-}
-.bt-topo{
-	position: relative;
-	bottom:-70px;
-	left: 85%;
-}
-.footer-mobile{
-flex-shrink: 0;
-
-}
-#pag-video{
-	position: relative;	
-}
-
-}
-
-
-
-
-
-
-
-
-
 @media (min-width:769px) and (max-width:1024px){
- section, nav,header{
- 	width: 100%;}
 
 	 nav{
-	 	display: block;
+	 	display: flex;
 	 }
 
 	 nav a{
 	 	margin:0;
 	 }
 	 nav p{
-	 	font-size: 1em;}
+		width: 10%;
+	 	font-size: 1.2em;
+		margin: 10px;}
 
 	 p{
 	 	font-size: 0.8em;
 	 	text-align: justify;
 	 	position: relative;
-	 	left: 80px;
-
 	 }
+
 	  #pag-1 {
-	  	background-color:gray;
+	  	
 	    align-items: center;
 	    display: block;
 	  }
@@ -824,6 +741,10 @@ flex-shrink: 0;
 	    left:50px;
 	    border-radius:none;
 	    
+	  }#btn-partipice{
+		position: relative;
+		right: 40px;
+		top:10px;
 	  }
 	 #btn-partipice p{
 	 	font-size: 1.5em;
@@ -842,11 +763,12 @@ flex-shrink: 0;
 	  	left: 7px;
 	  }
 
-	#bt-topo{
+	.bt-topo{
 		position: fixed;
-		left: 10px;
-		top: 80%;
-		z-index: 1
+		bottom
+		z-index: 2;
+		
+		
 	}
 
 	#pag-2 p {
@@ -854,6 +776,10 @@ flex-shrink: 0;
 	}
 	#btn-Parcerias{
 		width: 300px;
+	}
+	#btn-Parcerias p{
+		transform: translate(-30px);
+
 	}
 }
 
